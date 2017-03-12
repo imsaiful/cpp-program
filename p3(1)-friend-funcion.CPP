@@ -15,7 +15,7 @@ void input(int real,int img)
 this->real=real;
 this->img=img;
 }
-friend Complex opr(Complex , Complx );
+friend Complex opr(Complex , Complex );
 void show()
 {
 cout<<real<<"+"<<img<<"i"<<endl;
@@ -24,8 +24,8 @@ cout<<real<<"+"<<img<<"i"<<endl;
 Complex opr(Complex c1, Complex c2)
 {
 Complex temp;
-this->real=c1.real+c2.real;
-this->img=c1.img+c2.img;
+temp.real=c1.real+c2.real;
+temp.img=c1.img+c2.img;
 return temp;
 }
 void main()
