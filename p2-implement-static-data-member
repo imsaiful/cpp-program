@@ -22,17 +22,11 @@ static void printi()
 cout<<"i="<<i<<endl;
 }
 };
-setstat(int a)
-{
-int Static::i=a;
-}
+int Static::i=20;
 void main()
 {
 clrscr();
 int x;
-cout<<"Enter the static data member value"<<endl;
-cin>>x;
-setstat(x);
 Static s1,s2;
 s1.printi();
 s1.printj();
