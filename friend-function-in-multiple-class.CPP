@@ -1,3 +1,4 @@
+//Write a program in c++ to implement friend function in more than one class
 #include<iostream.h>
 #include<conio.h>
 class Mean2;
