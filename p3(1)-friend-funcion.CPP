@@ -1,3 +1,4 @@
+//Write a program in c++ to add two complex number using friend function
 #include<iostream.h>
 #include<conio.h>
 class Complex
