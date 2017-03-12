@@ -1,4 +1,4 @@
-//write-a-program-in-cpp-to-add-time-in-hh:mm 
+//write-a-program-in-cpp-to-add-two-time-in-hh:mm 
 #include<iostream.h>
 #include<conio.h>
 class Time
