@@ -1,4 +1,4 @@
-//gow to add two time 
+//write-a-program-in-cpp-to-add-time-in-hh:mm 
 #include<iostream.h>
 #include<conio.h>
 class Time
