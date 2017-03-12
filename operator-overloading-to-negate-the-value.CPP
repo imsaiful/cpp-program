@@ -1,3 +1,4 @@
+//Write a program in c++ to negate a value using operator overloading
 #include<iostream.h>
 #include<conio.h>
 class Negate
