@@ -3,37 +3,40 @@
 #include<conio.h>
 class Negate
 {
-int a,b;
+int a;
 public:
 Negate()
 {
 
 }
-void input();
-Negate opr();
+void input(int );
+void operator --()
+{
+this->a=-a;
+}
 void show();
 };
 void Negate::input(int a)
 {
 this->a=a;
 }
-Negate opr::operator -()
-{
-a=-a;
-b=-b;
-}
 void Negate::show()
 {
-cout<<"a="<<a<<endl;
-cout<<"b="<<b<<endl;
+cout<<a<<endl;
 }
-voi main()
+
+void main()
 {
 clrscr();
-Negate n1,n2;
-n1.input(2,3);
+Negate n1;
+int x;
+cout<<"Enter the number"<<endl;
+cin>>x;
+n1.input(x);
+cout<<"Your number is=";
 n1.show();
-n2=-n1;
-n2.show();
+--n1;
+cout<<"Number negation is=";
+n1.show();
 getch();
 }
