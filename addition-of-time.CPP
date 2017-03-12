@@ -1,3 +1,4 @@
+//gow to add two time 
 #include<iostream.h>
 #include<conio.h>
 class Time
