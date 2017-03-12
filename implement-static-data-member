@@ -1,3 +1,4 @@
+//write a program in cpp to implement on static data member
 #include<iostream.h>
 #include<conio.h>
 class Static
