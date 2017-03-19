@@ -1,3 +1,4 @@
+//Write a program in c++ to create the dynamic object with the help of new and delete operator
 #include<iostream.h>
 #include<conio.h>
 class NewOperator
