@@ -1,3 +1,4 @@
+//Write a program in C++ to demonstrate the virtual Function 
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
