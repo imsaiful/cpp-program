@@ -1,3 +1,4 @@
+//Write a program in C++ to create nameless object
 #include<iostream.h>
 #include<conio.h>
 class Nameless
