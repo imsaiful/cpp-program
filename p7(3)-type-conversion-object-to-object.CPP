@@ -25,11 +25,11 @@ Radian(Degree d)
 {
 float  temp;
 temp=d.getd();
-r=(temp/180)*pi;
+r=temp/180;
 }
 void show()
 {
-cout<<r;
+cout<<r<<" pi radian";
 }
 };
 void main()
