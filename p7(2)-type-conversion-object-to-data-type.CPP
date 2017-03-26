@@ -19,7 +19,7 @@ void main()
 clrscr();
 Foot f;
 int a;
-cout<<"Enter the value in inch"<<endl;
+cout<<"Enter the value in foot"<<endl;
 cin>>a;
 f.input(a);
 float y;
