@@ -1,3 +1,4 @@
+//Write a program in cpp to perform type coversion from object to data type
 #include<iostream.h>
 #include<conio.h>
 class Foot
