@@ -1,3 +1,4 @@
+//Write a program to implement virtual destructor
 #include<iostream.h>
 #include<conio.h>
 class A
