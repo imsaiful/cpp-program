@@ -1,3 +1,4 @@
+//Write a program in c++ to implement stack operation using template class
 #include<iostream.h>
 #include<conio.h>
 template<class t>
